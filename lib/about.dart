@@ -11,10 +11,10 @@ class Application extends StatelessWidget {
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            CircleAvatar(
-              radius: 50.0,
-              backgroundImage: AssetImage('images/angela.jpg'),
-            ),
+            // CircleAvatar(
+            //   radius: 50.0,
+            //   backgroundImage: AssetImage('images/angela.jpg'),
+            // ),
             Text(
               'About the Book',
               style: TextStyle(
@@ -45,7 +45,7 @@ class Application extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Icon(
-                    Icons.phone,
+                    Icons.add_circle_outline,
                     color: Colors.teal,
                   ),
                   title: Text(
@@ -61,7 +61,7 @@ class Application extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Icon(
-                    Icons.email,
+                    Icons.border_color,
                     color: Colors.teal,
                   ),
                   title: Text(
@@ -76,7 +76,7 @@ class Application extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Icon(
-                    Icons.phone,
+                    Icons.date_range,
                     color: Colors.teal,
                   ),
                   title: Text(

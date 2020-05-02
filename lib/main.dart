@@ -105,14 +105,15 @@ class MyApp extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(9),
               child: Text(
-                'In this fairy tale, a short story with fantastic characters and events,'
-                ' the main character lives a royal life under the sea but constantly thinks of the world above. '
-                'When she goes to the surface for the first time at fifteen, the land dwellers on a ship captivate her,'
-                ' especially the prince whom she saves from drowning. Finding the embodiment of her love and longing, '
-                'she discovers a way to join her beloved on land and, despite the risks, pays a terrible price. '
-                'She quickly befriends the prince. After the prince marries another woman, '
-                'the story closes with the little mermaid throwing herself into the water, becoming seafoam, '
-                'and discovering that she may earn a mortal soul through good deeds yet to come',
+                'The Sea King had been a widower for many years, and his aged mother kept house for him.'
+                'She was a very wise woman, and exceedingly proud of her high birth;'
+                'on that account she wore twelve oysters on her tail; while others,'
+                'also of high rank, were only allowed to wear six. She was, however, deserving of very great praise,'
+                'They were six beautiful children; but the youngest was the prettiest of them all; her skin was as clear and delicate as a rose-leaf, and her eyes as blue as the deepest sea; '
+                ' but, like all the others, she had no feet, and her body ended in a fish’s tail.'
+                'All day long they played in the great halls of the castle, or among the living flowers that grew out of the walls.'
+                'The large amber windows were open, and the fish swam in,'
+                ,
                 style: TextStyle(
                  //// fontFamily: 'Pacifico',
             color: Colors.white,
@@ -191,10 +192,11 @@ class MyApp extends StatelessWidget {
               child: Text(
                 'Welcome User',
                 style: TextStyle(
+                 
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
-                  fontSize: 50.0,
-                  fontFamily: "ALike",
+                  fontSize: 40.0,
+                  fontFamily: "Pacifico",
                 ),
               ),
               decoration: BoxDecoration(color: Colors.deepPurple),
@@ -215,7 +217,15 @@ class MyApp extends StatelessWidget {
               ),
               padding: EdgeInsets.all(15.0),
               child: ListTile(
-                  title: Text('Library'), //store
+                  title: Text('Library',
+                   style: TextStyle(
+                 
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontFamily: "Pacifico",
+                ),
+                  ), //store
                   leading: Icon(
                     Icons.book,
                     color: Colors.black87,
@@ -239,7 +249,15 @@ class MyApp extends StatelessWidget {
               ),
               padding: EdgeInsets.all(15.0),
               child: ListTile(
-                  title: Text('Favorite book'),
+                  title: Text('Favorite book',
+                  style: TextStyle(
+                 
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontFamily: "Pacifico",
+                ),
+                  ),
                   leading: Icon(
                     Icons.favorite,
                     color: Colors.pink[400],
@@ -263,7 +281,15 @@ class MyApp extends StatelessWidget {
               ),
               padding: EdgeInsets.all(15.0),
               child: ListTile(
-                  title: Text('Shop Now'),
+                  title: Text('Shop Now',
+                  style: TextStyle(
+                 
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontFamily: "Pacifico",
+                ),
+                  ),
                   leading: Icon(
                     Icons.shopping_cart,
                     color: Colors.black87,
@@ -286,10 +312,19 @@ class MyApp extends StatelessWidget {
               ),
               padding: EdgeInsets.all(15.0),
               child: ListTile(
-                  title: Text('Favorite book'),
+                  title: Text('Settings',
+                  style: TextStyle(
+                 
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontFamily: "Pacifico",
+                ),
+                  
+                  ),
                   leading: Icon(
-                    Icons.favorite,
-                    color: Colors.pink[400],
+                    Icons.settings,
+                    color: Colors.black87,
                     size: 30.0,
                   ),
                   onTap: () {}),
